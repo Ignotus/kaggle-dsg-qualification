@@ -132,6 +132,6 @@ It will produce a file called **submission_vote.csv** in the **submission** fold
 Copyright (c) 2016 Minh Ngo  
 Copyright (c) 2016 Riaan Zoetmulder  
 Copyright (c) 2016 Emiel Hoogeboom  
-Copyright (c) 2016 Wolf Vos  
+Copyright (c) 2016 Wolf Vos 
 
 The source code is distributed under the term of the [MIT License](LICENSE).
