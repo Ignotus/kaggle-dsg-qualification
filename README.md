@@ -27,7 +27,7 @@ Our solution uses pretrained on ImageNet models of [GoogleNet](https://s3.amazon
 
 ## Architecture
 
-We use a modification of the ResNet in combination with state-of-the art-based models (GoogleNet, InceptionV3, VGG16, VGG19) on multiple image scales (32x32, 64x64, 80x80, 96x96, 104x104) initialized with pretrained models to build a single bagged model with majority voting strategy. L2 normalization is applied on randomly initialized layers. Following models have been included into the best majority voting model:
+We use a modification of the ResNet in combination with state-of-the art-based models (GoogleNet, InceptionV3, VGG16, VGG19) on multiple image scales (32x32, 64x64, 80x80, 96x96, 104x104) initialized with pretrained models to build a single bagged model with majority voting strategy. L2 regularization is applied on randomly initialized layers. Following models have been included into the best majority voting model:
 
 Architecture | Image Size | Validation Accuracy | Batch Size | Learning Rate | Dropout Ratio | Test Accuracy (40%)
 -------------|------------|---------------------|------------|---------------|---------------|--------------------
